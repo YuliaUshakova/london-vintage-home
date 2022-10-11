@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+body{
+  background-color:antiquewhite ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+      border-style: inherit;
+  border-color: rgb(32, 5, 5) 2px;
+}
+.link{
+padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link:hover {
+  background: rgb(61, 7, 7);
+  color: #fff; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1464206704386-46415fa8107c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80) center center no-repeat;
+  background-size: cover;
+ }
+
+h1{
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+  margin-left: 25px;
+  justify-content: center;
+  color: antiquewhite;
+  
+}
+h2{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+nav{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-family: Roboto;
+  font-weight: bolder;
+}
+.history-item{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.product-card{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  
+}
+.product-info{
+  display: flex;
+  align-self: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+
+.hr{
+  color: black 2px;
+}
+
+.btn{
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: antiquewhite;
+  border: none;
+
+}
+.home{
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
+
+
+#myVideo{
+  width:100%;
+  height:400px;
+}
+
+.heading {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+}
+.row{
+  background-color:antiquewhite ;
+}
+#items{
+  background-color:antiquewhite ;
+}
+.btn{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.text-input {
+  background-color: #faf1e6;
+  border: none;
+  padding: 12px 20px;
+}
+.sendemail {
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media all and (max-width: 800px) {
+.sendemail {
+  margin-left: 55px;
+}
 }
