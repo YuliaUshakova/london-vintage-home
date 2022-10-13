@@ -39,6 +39,7 @@ function Shop({display}) {
     <p>@All visual materials are from open sources and are used for demonstration purposes only</p>
   </div>
       </div>
+      
   )
 }
 export default Shop;
