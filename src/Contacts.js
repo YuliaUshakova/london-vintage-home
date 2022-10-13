@@ -2,7 +2,7 @@ function Contacts() {
     return (<div className="heading">
 <h2>Связаться с нами</h2>
 
-  <div className="heading product-card">
+  <div className="heading">
     
     <form 
   action="https://formspree.io/f/mgedjrbp"
@@ -23,7 +23,7 @@ function Contacts() {
   </label>
 </div>
 <br></br>
-  <div className="heading">
+  <div>
    <button type="submit" className="btn">Отправить</button>
 
 </div>

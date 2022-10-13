@@ -27,11 +27,11 @@ function History() {
     }
     return (<div className="historyItem">
         <h2 className="product-card">История Российского фарфора</h2>
-        <div className="product-card" key={id}>
+        <div className="history-card" key={id}>
         <button onClick={previousItem} className="btn">Назад</button>
         <img src={image} width="500px" alt="item"/>
         <button onClick={nextItem} className="btn">Вперед</button>
-        <div className="product-info">
+        <div className="history-info">
                 <p>{text}</p>
         </div>
         </div>

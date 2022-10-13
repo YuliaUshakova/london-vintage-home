@@ -1,5 +1,8 @@
 body{
   background-color:antiquewhite ;
+  min-height: 100vh;
+  display: flex;
+    flex-direction: column;
 }
 
 .title{
@@ -56,21 +59,47 @@ nav{
   justify-content: center;
   
 }
-.product-card{
-  margin-top: 10px;
+.shopPage {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column; 
+  } 
+.cont {
+  display: flex;
+  justify-content: center;
+ }
+.products{
+  /* margin-top: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
-  background-color: white;
-  
-}
+  }
+  .product-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .history-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .history-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 .product-info{
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-self: center;
-  padding: 20px;
-  font-size: 20px;
+  justify-content: center;
+  padding: 10px;
+  font-size: 13px;
   font-family: Roboto;
+  width: 400px;
 }
 
 
@@ -78,14 +107,31 @@ nav{
   color: black 2px;
 }
 
+p{
+  width: 40%;
+  align-self: center;
+  text-align: center;
+}
+
 .btn{
+  background: rgb(61, 7, 7);
   padding: 15px;
   margin: 10px;
   font-size: 20px;
   background-color: antiquewhite;
   border: none;
-
 }
+
+.change { 
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 16px;
+  }
+
 .home{
   display: flex;
   justify-content: center;
@@ -110,10 +156,6 @@ nav{
 #items{
   background-color:antiquewhite ;
 }
-.btn{
-  display: flex;
-  justify-content: center;
-}
 
 .text-input {
   background-color: #faf1e6;
@@ -124,10 +166,9 @@ nav{
   display: flex;
   justify-content: center;
 }
-.footer{
+footer{
   display: flex;
-  justify-content: center;
-  align-items: baseline;
+  margin-top: auto;
 }
 
 @media all and (max-width: 800px) {

@@ -1,9 +1,9 @@
-function Buttons({filteredUnites}) {
+function Buttons({filteredProducts}) {
     return ( 
         <div className="cont">
-<button className="change" onClick={() => filteredUnits("teaset")}>Tea sets</button>
-<button className="change" onClick={() => filteredUnits("coffeeset")}>Coffee sets</button>
-<button className="change" onClick={() => filteredUnits("vase")}>Vases</button>
+<button className="change" onClick={() => filteredProducts("teaset")}>Чайные сервизы</button>
+<button className="change" onClick={() => filteredProducts("coffeeset")}>Кофейные сервизы</button>
+<button className="change" onClick={() => filteredProducts("vase")}>Вазы</button>
 
 </div>
     )
