@@ -27,7 +27,7 @@ function Shop({display}) {
                    <img src={img} width="400px" alt="item"/>
                    <div className="product-info">
                   <h3>{showMore ? description: description.substring(0, 22)+ "..."}
-                  <button onClick={() => showTextClick(product)}>{showMore ? 'Show Less' : 'Show More'}</button>
+                  <button onClick={() => showTextClick(element)}>{showMore ? 'Show Less' : 'Show More'}</button>
                   </h3>
                   <h4>$ {price}</h4>
                   </div>

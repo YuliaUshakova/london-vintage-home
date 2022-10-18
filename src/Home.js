@@ -11,7 +11,7 @@ function Home() {
         <br></br>
         <hr></hr>
         <div class="home">
-        <video controls autoplay muted loop id="myVideo" playsInline>
+        <video autoPlay muted loop id="myVideo" playsInline>
           <source src="https://cdn.glitch.global/d2054fad-728b-4ad5-a0c4-1cea54967660/coffee.mp4?v=1657639425117" type="video/mp4" height="20px"/>
       </video>
     </div>
